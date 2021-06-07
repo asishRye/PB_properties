@@ -1,4 +1,3 @@
-
 [
    {
       "Name":"Open Browser",
@@ -38,11 +37,11 @@
                "input":"button"
             },
             "ElementData:":{
-               "content":"",
+               "content":"about:blank",
                "input":"text"
             },
             "EnterText":{
-               "content":"",
+               "content":"about:blank",
                "input":"text"
             },
             "ElementType":{
@@ -73,7 +72,7 @@
                "input":"button"
             },
             "ElementData:":{
-               "content":"",
+               "content":"about:blank",
                "input":"text"
             },
             "ElementType":{
@@ -102,7 +101,7 @@
          }
       ]
    },
-      {
+   {
       "Name":"Read",
       "id":"1d",
       "properties":[
@@ -112,10 +111,9 @@
                "input":"button"
             },
             "ElementData:":{
-               "content":"",
+               "content":"about:blank",
                "input":"text"
             },
-
             "ElementType":{
                "content":[
                   "xpath",
@@ -123,8 +121,8 @@
                ],
                "input":"selector"
             },
-             "StoreOutput":{
-               "content":"",
+            "StoreOutput":{
+               "content":"about:blank",
                "input":"text"
             },
             "OK":{
@@ -144,10 +142,9 @@
       "properties":[
          {
             "WaitTime:":{
-               "content":"",
+               "content":"about:blank",
                "input":"text"
             },
-
             "OK":{
                "content":"Apply",
                "input":"Button"
