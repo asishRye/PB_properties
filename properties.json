@@ -1,12 +1,28 @@
 {
-  "Name": "Open Browser",
-  "id": "1a",
-  "properties": [
-    {
-      "label_Browser Type:": {"content":["Chrome", "Edge", "Firefox"],"input":"selector"},
-      "label_Start Page": {"content":"about:blank","input":"text"},
-      "label_OK": {"content":"Apply","input":"Button"},
-      "label_Cancel": {"content":"Cancel","input":"Button"},
-    }
-  ]
+   "Name":"Open Browser",
+   "id":"1a",
+   "properties":[
+      {
+         "label_BrowserType:":{
+            "content":[
+               "Chrome",
+               "Edge",
+               "Firefox"
+            ],
+            "input":"selector"
+         },
+         "label_StartPage":{
+            "content":"about:blank",
+            "input":"text"
+         },
+         "label_OK":{
+            "content":"Apply",
+            "input":"Button"
+         },
+         "label_Cancel":{
+            "content":"Cancel",
+            "input":"Button"
+         }
+      }
+   ]
 }
