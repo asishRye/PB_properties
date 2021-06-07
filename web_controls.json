@@ -38,11 +38,11 @@
                "input":"button"
             },
             "ElementData:":{
-               "content":"about:blank",
+               "content":"",
                "input":"text"
             },
             "EnterText":{
-               "content":"about:blank",
+               "content":"",
                "input":"text"
             },
             "ElementType":{
@@ -73,7 +73,7 @@
                "input":"button"
             },
             "ElementData:":{
-               "content":"about:blank",
+               "content":"",
                "input":"text"
             },
             "ElementType":{
@@ -112,7 +112,7 @@
                "input":"button"
             },
             "ElementData:":{
-               "content":"about:blank",
+               "content":"",
                "input":"text"
             },
 
@@ -124,7 +124,7 @@
                "input":"selector"
             },
              "StoreOutput":{
-               "content":"about:blank",
+               "content":"",
                "input":"text"
             },
             "OK":{
@@ -144,7 +144,7 @@
       "properties":[
          {
             "WaitTime:":{
-               "content":"about:blank",
+               "content":"",
                "input":"text"
             },
 
