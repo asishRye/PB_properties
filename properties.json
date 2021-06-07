@@ -3,8 +3,10 @@
   "id": "1a",
   "properties": [
     {
-      "Browser Type:": ["Chrome", "Edge", "Firefox"],
-      "Start Page": "about:blank"
+      "label_Browser Type:": {"content":["Chrome", "Edge", "Firefox"],"input":"selector"},
+      "label_Start Page": {"content":"about:blank","input":"text"},
+      "label_OK": {"content":"Apply","input":"Button"},
+      "label_Cancel": {"content":"Cancel","input":"Button"},
     }
   ]
 }
