@@ -1,0 +1,39 @@
+[
+  {
+    "Name": "Web Controls",
+    "id": "1",
+    "nodes_list": [
+      {
+        "Name": "Open Browser",
+        "id": "1a",
+        "Description": "Open a browser for browser automation"
+      },
+      {
+        "Name": "Change Webpage",
+        "id": "1b",
+        "Description": "Replace current url with something else"
+      },
+      {
+        "Name": "Click an element",
+        "id": "1c",
+        "Description": "Click an element specified by you"
+      }
+    ]
+  },
+  {
+    "Name": "Email Controls",
+    "id": "2",
+    "nodes_list": [
+      {
+        "Name": "Connect to Mail",
+        "id": "2a",
+        "Description": "Start a new mailing session"
+      },
+      {
+        "Name": "Send Mail",
+        "id": "2b",
+        "Description": "Send a mail"
+      }
+    ]
+  }
+]
