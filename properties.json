@@ -1,28 +1,65 @@
-{
-   "Name":"Open Browser",
-   "id":"1a",
-   "properties":[
-      {
-         "BrowserType:":{
-            "content":[
-               "Chrome",
-               "Edge",
-               "Firefox"
-            ],
-            "input":"selector"
-         },
-         "StartPage":{
-            "content":"about:blank",
-            "input":"text"
-         },
-         "OK":{
-            "content":"Apply",
-            "input":"Button"
-         },
-         "Cancel":{
-            "content":"Cancel",
-            "input":"Button"
+[
+   {
+      "Name":"Open Browser",
+      "id":"1a",
+      "properties":[
+         {
+            "BrowserType:":{
+               "content":[
+                  "Chrome",
+                  "Edge",
+                  "Firefox"
+               ],
+               "input":"selector"
+            },
+            "StartPage":{
+               "content":"about:blank",
+               "input":"text"
+            },
+            "OK":{
+               "content":"Apply",
+               "input":"Button"
+            },
+            "Cancel":{
+               "content":"Cancel",
+               "input":"Button"
+            }
          }
-      }
-   ]
-}
+      ]
+   },
+   {
+      "Name":"Type",
+      "id":"1b",
+      "properties":[
+         {
+            "Indicate:":{
+               "content":"Indicate on  screen",
+               "input":"button"
+            },
+            "ElementData:":{
+               "content":"about:blank",
+               "input":"text"
+            },
+            "EnterText":{
+               "content":"about:blank",
+               "input":"text"
+            },
+            "ElementType":{
+               "content":[
+                  "xpath",
+                  "coordinates"
+               ],
+               "input":"selector"
+            },
+            "OK":{
+               "content":"Apply",
+               "input":"Button"
+            },
+            "Cancel":{
+               "content":"Cancel",
+               "input":"Button"
+            }
+         }
+      ]
+   }
+]
