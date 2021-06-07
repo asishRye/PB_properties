@@ -1,3 +1,4 @@
+
 [
    {
       "Name":"Open Browser",
@@ -51,6 +52,102 @@
                ],
                "input":"selector"
             },
+            "OK":{
+               "content":"Apply",
+               "input":"Button"
+            },
+            "Cancel":{
+               "content":"Cancel",
+               "input":"Button"
+            }
+         }
+      ]
+   },
+   {
+      "Name":"Click",
+      "id":"1c",
+      "properties":[
+         {
+            "Indicate:":{
+               "content":"Indicate on  screen",
+               "input":"button"
+            },
+            "ElementData:":{
+               "content":"about:blank",
+               "input":"text"
+            },
+            "ElementType":{
+               "content":[
+                  "xpath",
+                  "coordinates"
+               ],
+               "input":"selector"
+            },
+            "ClickType":{
+               "content":[
+                  "Single",
+                  "Double",
+                  "Hover"
+               ],
+               "input":"selector"
+            },
+            "OK":{
+               "content":"Apply",
+               "input":"Button"
+            },
+            "Cancel":{
+               "content":"Cancel",
+               "input":"Button"
+            }
+         }
+      ]
+   },
+      {
+      "Name":"Read",
+      "id":"1d",
+      "properties":[
+         {
+            "Indicate:":{
+               "content":"Indicate on  screen",
+               "input":"button"
+            },
+            "ElementData:":{
+               "content":"about:blank",
+               "input":"text"
+            },
+
+            "ElementType":{
+               "content":[
+                  "xpath",
+                  "coordinates"
+               ],
+               "input":"selector"
+            },
+             "StoreOutput":{
+               "content":"about:blank",
+               "input":"text"
+            },
+            "OK":{
+               "content":"Apply",
+               "input":"Button"
+            },
+            "Cancel":{
+               "content":"Cancel",
+               "input":"Button"
+            }
+         }
+      ]
+   },
+   {
+      "Name":"Wait",
+      "id":"1e",
+      "properties":[
+         {
+            "WaitTime:":{
+               "content":"about:blank",
+               "input":"text"
+            },
+
             "OK":{
                "content":"Apply",
                "input":"Button"
