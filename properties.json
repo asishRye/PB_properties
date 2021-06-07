@@ -4,7 +4,6 @@
   "properties": [
     {
       "Browser Type:": ["Chrome", "Edge", "Firefox"],
-      "Incognito": "No",
       "Start Page": "about:blank"
     }
   ]
