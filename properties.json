@@ -3,7 +3,7 @@
    "id":"1a",
    "properties":[
       {
-         "label_BrowserType:":{
+         "BrowserType:":{
             "content":[
                "Chrome",
                "Edge",
@@ -11,15 +11,15 @@
             ],
             "input":"selector"
          },
-         "label_StartPage":{
+         "StartPage":{
             "content":"about:blank",
             "input":"text"
          },
-         "label_OK":{
+         "OK":{
             "content":"Apply",
             "input":"Button"
          },
-         "label_Cancel":{
+         "Cancel":{
             "content":"Cancel",
             "input":"Button"
          }
