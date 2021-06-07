@@ -1,0 +1,106 @@
+
+[
+   {
+      "Name":"Connect to mail",
+      "id":"2a",
+      "properties":[
+         {
+            "Host":{
+               "content":"",
+               "input":"text"
+            },
+            "Username":{
+               "content":"",
+               "input":"text"
+            },
+             "Password":{
+               "content":"",
+               "input":"password"
+            },
+            "Port":{
+               "content":"",
+               "input":"text"
+            },
+            "OK":{
+               "content":"Apply",
+               "input":"Button"
+            },
+            "Cancel":{
+               "content":"Cancel",
+               "input":"Button"
+            }
+         }
+      ]
+   },
+    {
+      "Name":"Send mail",
+      "id":"2b",
+      "properties":[
+         {
+            "To":{
+               "content":"",
+               "input":"text"
+            },
+            "Bcc":{
+               "content":"",
+               "input":"text"
+            },
+             "Cc":{
+               "content":"",
+               "input":"text"
+            },
+            "OK":{
+               "content":"Apply",
+               "input":"Button"
+            },
+            "Cancel":{
+               "content":"Cancel",
+               "input":"Button"
+            }
+         }
+      ]
+   },
+    {
+      "Name":"Fetch mail",
+      "id":"2c",
+      "properties":[
+         {
+            "Category":{
+               "content":["Read","UnRead"],
+               "input":"selector"
+            },
+            "AddressFilter":{
+               "content":"",
+               "input":"text"
+            },
+             "SubjectFilter":{
+               "content":"",
+               "input":"text"
+            },
+             "Limit":{
+               "content":"",
+               "input":"text"
+            },
+            "OK":{
+               "content":"Apply",
+               "input":"Button"
+            },
+            "Cancel":{
+               "content":"Cancel",
+               "input":"Button"
+            }
+         }
+      ]
+   },
+   {
+      "Name":"End connection",
+      "id":"2d",
+      "properties":[
+         {
+           
+            "content":"Animated image",
+            
+         }
+      ]
+   }
+]
