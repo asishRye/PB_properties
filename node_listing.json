@@ -1,39 +1,59 @@
 [
-  {
-    "Name": "Web Controls",
-    "id": "1",
-    "nodes_list": [
-      {
-        "Name": "Open Browser",
-        "id": "1a",
-        "Description": "Open a browser for browser automation"
-      },
-      {
-        "Name": "Change Webpage",
-        "id": "1b",
-        "Description": "Replace current url with something else"
-      },
-      {
-        "Name": "Click an element",
-        "id": "1c",
-        "Description": "Click an element specified by you"
-      }
-    ]
-  },
-  {
-    "Name": "Email Controls",
-    "id": "2",
-    "nodes_list": [
-      {
-        "Name": "Connect to Mail",
-        "id": "2a",
-        "Description": "Start a new mailing session"
-      },
-      {
-        "Name": "Send Mail",
-        "id": "2b",
-        "Description": "Send a mail"
-      }
-    ]
-  }
+   {
+      "Name":"Web Controls",
+      "id":"1",
+      "nodes_list":[
+         {
+            "Name":"Open Browser",
+            "id":"1a",
+            "Description":"Open a browser for browser automation"
+         },
+         {
+            "Name":"Type",
+            "id":"1b",
+            "Description":"User can input the data"
+         },
+         {
+            "Name":"Click",
+            "id":"1c",
+            "Description":"Click an element specified by you"
+         },
+         {
+            "Name":"Read",
+            "id":"1d",
+            "Description":"Read an element specified by you"
+         },
+         {
+            "Name":"Wait",
+            "id":"1e",
+            "Description":"To provide delay"
+         }
+      ]
+   },
+   {
+      "Name":"Email Controls",
+      "id":"2",
+      "nodes_list":[
+         {
+            "Name":"Connect to Mail",
+            "id":"2a",
+            "Description":"Start a new mailing session"
+         },
+         {
+            "Name":"Send Mail",
+            "id":"2b",
+            "Description":"Send a mail"
+         },
+         {
+            "Name":"Fetch Mail",
+            "id":"2c",
+            "Description":"To Fetch the mail"
+         },
+         {
+            "Name":"End connection",
+            "id":"2d",
+            "Description":"To close the mail session"
+         }
+      ]
+   }
 ]
